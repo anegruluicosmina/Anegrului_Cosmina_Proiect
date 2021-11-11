@@ -1,4 +1,4 @@
-using Anegrului_Cosmina_Lab2.Data;
+using LibraryModel.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;

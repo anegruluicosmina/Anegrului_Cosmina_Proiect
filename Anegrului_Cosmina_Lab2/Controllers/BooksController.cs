@@ -5,8 +5,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using Anegrului_Cosmina_Lab2.Data;
+using LibraryModel.Data;
 using Anegrului_Cosmina_Lab2.Models;
+using LibraryModel.Models;
 
 namespace Anegrului_Cosmina_Lab2.Controllers
 {

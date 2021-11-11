@@ -7,7 +7,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using Anegrului_Cosmina_Lab2.Data;
+using LibraryModel.Data;
 using Anegrului_Cosmina_Lab2.Models.LibraryViewModels;
 
 namespace Anegrului_Cosmina_Lab2.Controllers

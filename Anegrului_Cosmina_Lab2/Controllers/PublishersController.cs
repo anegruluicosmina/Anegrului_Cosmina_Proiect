@@ -1,13 +1,12 @@
-﻿using System;
+﻿using Anegrului_Cosmina_Lab2.Models.LibraryViewModels;
+using LibraryModel.Data;
+using LibraryModel.Models;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
-using Anegrului_Cosmina_Lab2.Data;
-using Anegrului_Cosmina_Lab2.Models;
-using Anegrului_Cosmina_Lab2.Models.LibraryViewModels;
 
 namespace Anegrului_Cosmina_Lab2.Controllers
 {
