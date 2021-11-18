@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "defaultProvider": "unpkg",
+  "libraries": [
+    {
+      "library": "signalr@latest",
+      "destination": "wwwroot/js/signalr/",
+      "files": [
+        "jquery.signalR.js",
+        "jquery.signalR.min.js"
+      ]
+    }
+  ]
+}

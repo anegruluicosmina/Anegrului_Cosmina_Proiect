@@ -1,3 +1,4 @@
+using Anegrului_Cosmina_Lab2.Hubs;
 using LibraryModel.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -27,6 +28,7 @@ namespace Anegrului_Cosmina_Lab2
         {
             services.AddControllersWithViews();
             services.AddDbContext<LibraryContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddSignalR();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -54,6 +56,7 @@ namespace Anegrului_Cosmina_Lab2
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
+                endpoints.MapHub<ChatHub>("/chathub");
             });
         }
     }
